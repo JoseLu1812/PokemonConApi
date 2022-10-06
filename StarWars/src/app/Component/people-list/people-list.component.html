@@ -1,0 +1,10 @@
+<h1>STAR Wars People</h1>
+
+
+<mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title *ngFor="let People of PeopleList">{{People.name}}</mat-card-title>
+      <mat-card-subtitle *ngFor="let People of PeopleList">{{People.films}}</mat-card-subtitle>
+      <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
+    </mat-card-title-group>
+</mat-card>

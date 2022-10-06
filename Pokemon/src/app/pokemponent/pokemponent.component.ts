@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PokemonService } from '../service/pokemon.service';
-import { Pokemon } from "../interfaces/pokemon-response.interface";
+import { Pokemon } from 'src/app/interfaces/pokemon-response.interface';
 
 @Component({
   selector: 'app-pokemponent',
@@ -20,3 +20,4 @@ export class PokemponentComponent implements OnInit {
   }
 
 }
+
